@@ -10,3 +10,8 @@ myH1.addEventListener('mouseover',
 myH1.addEventListener('mouseleave',
     (event)=> event.target.innerHTML = "Learn ARKit"
 )
+
+document.addEventListener('keypress',event => {
+    console.log('remove a child');
+    document.querySelector('#contain-all').firstElementChild.remove();
+})
