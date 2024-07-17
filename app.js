@@ -11,13 +11,17 @@ function changeText(btn) {
 
 function listenerContainer(e) {
     const target = e.target;
-    const classList = target.classList;
+    const btnClassList = target.classList;
+    
     
     // console.log('clik');
 
-    if (classList.contains('button--primary')) {
+    if (btnClassList.contains('button--primary')) {
         e.preventDefault();
-        changeText(target)
+        changeText(target);
+
+        target.parentNode.nextSibling.nextSibling.firstChild.nextSibling.classList.toggle('hide-stars');
+        //target.nextSibling.classList.toggle('hide-stars');
         // console.log('button clicked!')
     }
 }
