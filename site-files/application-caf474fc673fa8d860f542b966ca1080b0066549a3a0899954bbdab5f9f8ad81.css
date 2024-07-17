@@ -9466,8 +9466,8 @@ screen and (min-resolution: 2dppx) {
 }
 
 .card--nanodegree__title {
-    padding: 20px 24px;
-    height: 5.25rem;
+    padding: 12px 24px;
+    height: 4rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     position: relative
@@ -9482,8 +9482,8 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 48rem) {
     .card--nanodegree__title {
-        padding: 24px 32px;
-        height: 8.25rem
+        padding: 12px 32px;
+        height: 4rem
     }
 }
 

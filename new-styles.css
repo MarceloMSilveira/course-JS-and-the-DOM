@@ -7,6 +7,23 @@
     background: linear-gradient(160deg, #2015ff, #bdea09 100%);
 }
 
+.card--nanodegree__favorites {
+    padding: 0px 32px;
+}
+
+.card--nanodegree__3stars {
+    padding: 0px 32px;
+    margin-top: 10px;
+    height: 15px;
+}
+
+.hide-stars {
+    display: none;
+}
+
+/* .three-stars{
+}  */
+
 @media screen and (min-width: 30rem) {
     .page-homepage .new-hero::before {
         background: linear-gradient(160deg, #2015ff, #bdea09 100%);
