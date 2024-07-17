@@ -26,10 +26,7 @@ function createCardWithStars() {
     return cardDiv;
 }
 
-//const document.body.appendChild(cardElement);
-
 const cardContainers = allCoursesContainer.querySelectorAll('.card__container');
-//console.log(cardContainers[1].querySelector('.card--nanodegree__title')); 
 
 cardContainers.forEach(function(value) {
     const cardTitle = value.querySelector('.card--nanodegree__title');
