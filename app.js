@@ -12,8 +12,6 @@ function changeText(btn) {
 function listenerContainer(e) {
     const target = e.target;
     const btnClassList = target.classList;
-    
-    // console.log('clik');
 
     if (btnClassList.contains('button--primary')) {
         e.preventDefault();
@@ -21,9 +19,6 @@ function listenerContainer(e) {
         const grandParent = target.parentNode.parentNode;
         const starsDiv = grandParent.querySelector('.three-stars');
         starsDiv.classList.toggle('hide-stars');
-        //target.parentNode.nextSibling.nextSibling.firstChild.nextSibling.classList.toggle('hide-stars');
-        //target.nextSibling.classList.toggle('hide-stars');
-        // console.log('button clicked!')
     }
 }
 
